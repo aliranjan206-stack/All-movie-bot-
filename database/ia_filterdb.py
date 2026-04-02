@@ -2,7 +2,7 @@ import logging
 from struct import pack
 import re
 import base64
-from kurigram.file_id import FileId
+from pyrogram.file_id import FileId
 from typing import Dict, List
 from collections import defaultdict
 from pymongo.errors import DuplicateKeyError
