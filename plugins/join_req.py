@@ -1,10 +1,10 @@
 #Join Telegram Channel - @DREAMXBOTZ
 
-from pyrogram import Client, filters, enums
-from pyrogram.types import ChatJoinRequest
+from kurigram import Client, filters, enums
+from kurigram.types import ChatJoinRequest
 from database.users_chats_db import db
 from info import ADMINS, AUTH_REQ_CHANNELS
-from pyrogram.filters import create
+from kurigram.filters import create
 
 def is_auth_req_channel(_, __, update):
     return update.chat.id in AUTH_REQ_CHANNELS
