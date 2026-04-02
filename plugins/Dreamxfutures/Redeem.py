@@ -3,8 +3,8 @@ from datetime import timedelta, datetime
 import pytz
 import string
 import random
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from kurigram import Client, filters
+from kurigram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from database.users_chats_db import db
 from info import ADMINS, PREMIUM_LOGS
 from utils import get_seconds, temp
