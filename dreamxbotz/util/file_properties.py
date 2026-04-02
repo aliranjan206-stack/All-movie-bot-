@@ -1,9 +1,9 @@
 #Thanks @dreamxBotz for helping in this journey 
-from pyrogram import Client
+from kurigram import Client
 from typing import Any, Optional
-from pyrogram.types import Message
-from pyrogram.file_id import FileId
-from pyrogram.raw.types.messages import Messages
+from kurigram.types import Message
+from kurigram.file_id import FileId
+from kurigram.raw.types.messages import Messages
 from dreamxbotz.server.exceptions import FIleNotFound
 
 
