@@ -2,8 +2,8 @@ import logging
 import logging.config
 import asyncio
 import uvloop
-from kurigram import Client
-from kurigram import types
+from pyrogram import Client
+from pyrogram import types
 from typing import Union, Optional, AsyncGenerator
 from aiohttp import web
 from info import *
