@@ -82,7 +82,7 @@ async def start(client, message):
         return         
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('📢 JOIN OUR CHANNEL 📢', url=https://t.me/niceto321)
+                    InlineKeyboardButton('📢 JOIN OUR CHANNEL 📢', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🍁 Update Channel 🍁', url=https://t.me/niceto321)
                   ]]
